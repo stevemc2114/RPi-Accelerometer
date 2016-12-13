@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#Author2: Steve McClure
+//Author2: Steve McClure
 
 #if 0
 int main(int argc, char **argv)

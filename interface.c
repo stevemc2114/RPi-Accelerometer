@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Author2: Steve McClure
+//Author2: Steve McClure added some new stupp
+// Build as: gcc -o interface interface.c -lbcm2835
 
 #if 0
 int main(int argc, char **argv)
@@ -154,6 +155,10 @@ void  bcm_read_adxl345 (void)
 #if 1
 int main(int argc, char **argv)
 {
+    // State accelerometer device
+    printf ("Accelerometer Device = ADXL345\n");
+    printf ("==============================\n\n");
+
     // Initialize the SPI interface
     if (!bcm2835_init())
     {
